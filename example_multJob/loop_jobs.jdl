@@ -1,0 +1,13 @@
+JobName    = "test1";
+Executable = "loop_jobs.sh";
+StdOutput = "StdOut";
+StdError = "StdErr";
+InputSandbox = {"job.sh", "loop_jobs.sh"};
+OutputSandbox = {"StdOut","StdErr", "out.txt"};
+#Site = "CLOUD.RECAS-NAPOLI.it"
+#Site = "LCG.UKI-NORTHGRID-LANCS-HEP.uk"
+#Site = "LCG.UKI-LT2-IC-HEP.uk"
+#Site = "LCG.IN2P3-CC.fr"
+#Site = "LCG.RAL-LCG2.uk"
+#Site = LCG.UKI-NORTHGRID-LIV-HEP.uk
+
