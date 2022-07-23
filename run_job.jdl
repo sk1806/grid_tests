@@ -1,0 +1,15 @@
+JobName    = "test";
+Executable = "sub_job.sh";
+StdOutput = "StdOut";
+StdError = "StdErr";
+#InputData = {"LFN:/t2k.org/user/k/sophie.king/site/IN2P3-CCXRD-disk/1GB_file_4.txt}
+InputSandbox = {"job.sh, run_job.sh"};
+OutputSandbox = {"StdOut","StdErr", "out.txt"};
+#Platforms = "EL6";
+#Site = "CLOUD.RECAS-NAPOLI.it"
+#Site = "LCG.UKI-NORTHGRID-LANCS-HEP.uk"
+#Site = "LCG.UKI-LT2-IC-HEP.uk"
+Site = "LCG.IN2P3-CC.fr"
+#Site = "LCG.RAL-LCG2.uk"
+#Site = LCG.UKI-NORTHGRID-LIV-HEP.uk
+

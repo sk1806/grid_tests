@@ -1,0 +1,19 @@
+JobName    = "test";
+Executable = "job.sh";
+StdOutput = "StdOut";
+StdError = "StdErr";
+InputSandbox = {"job.sh"};
+OutputSandbox = {"StdOut","StdErr", "out.txt"};
+
+
+#Platforms = "EL6";
+# "EL6" - SL6
+# "EL8" - COS7
+
+#Site = "LCG.RAL-LCG2.uk"
+#Site = "CLOUD.RECAS-NAPOLI.it"
+#Site = "LCG.UKI-NORTHGRID-LANCS-HEP.uk"
+#Site = "LCG.UKI-LT2-IC-HEP.uk"
+#Site = "LCG.IN2P3-CC.fr"
+#Site = LCG.UKI-NORTHGRID-LIV-HEP.uk
+

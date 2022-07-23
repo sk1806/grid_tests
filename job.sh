@@ -1,6 +1,14 @@
 #!/bin/bash
 
+echo ''
+ls -lh
+echo ''
+echo ''
+
  ls -l /cvmfs/hyperk.egi.eu/hk
+ ls -l /cvmfs/t2k.egi.eu/nd280_containers/
+ ls -l /cvmfs/t2k.egi.eu/nd280_containers/nd280v11r31p57_sand/usr/local/t2k/current/nd280/setup.sh
+
 
 
   TRYCVMFSSINGULARITY=true
